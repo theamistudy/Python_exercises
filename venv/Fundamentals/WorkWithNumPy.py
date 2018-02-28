@@ -16,3 +16,4 @@ print(l.pop())
 print(l)
 
 print(a.mean())
+print(a.all())
