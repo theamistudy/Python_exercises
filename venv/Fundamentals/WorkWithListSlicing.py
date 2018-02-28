@@ -12,5 +12,7 @@ print(list1[-8:-3])
 print(list1[::3])
 
 print(list1[::-2])
+print(list1[2:7:-2])# Will not print anything as -ve step goes towards left
+print(list1[6:1:-2])
 
 
