@@ -68,6 +68,23 @@ print(best_month)
 print(worst_month)
 
 
+#--- Convert all calculation into unit of 1000 $ ------
+
+revenue_1000 = [ int(round(i/1000,2)) for i in revenue]
+print(revenue_1000)
+
+expenses_1000 = [int(round(i/1000,2)) for i in expenses]
+print(expenses_1000)
+
+profit_1000 = [int(round(i/1000,2)) for i in profit]
+print(profit_1000)
+
+profit_after_tax_1000 = [int(round(i/1000,2)) for i in profit_after_tax ]
+print(profit_after_tax_1000)
+
+
+
+
 
 
 
